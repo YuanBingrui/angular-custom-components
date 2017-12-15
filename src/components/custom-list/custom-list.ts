@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input, Output, EventEmitter } from '@angular/core';
 
 /**
  * Generated class for the CustomListComponent component.
@@ -11,12 +11,15 @@ import { Component } from '@angular/core';
   templateUrl: 'custom-list.html'
 })
 export class CustomListComponent {
-
+  @Input()
   text: string;
+
+  @Input()
+  text2: number;
 
   constructor() {
     console.log('Hello CustomListComponent Component');
-    this.text = 'Hello World!!!!';
+    //this.text = 'Hello World!!!!';
   }
 
 }
