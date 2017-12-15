@@ -1,0 +1,8 @@
+{
+  "name": "angular-custom-components",
+  "app_id": "",
+  "type": "ionic-angular",
+  "integrations": {
+    "cordova": {}
+  }
+}
